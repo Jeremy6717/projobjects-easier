@@ -48,13 +48,6 @@ class Session extends DbObject {
 		return $returnList;
 	}
 
-	/**
-	 * @param int $sessionId
-	 * @return DbObject[]
-	 */
-	public static function getFromSession($sessionId) {
-		// TODO: Implement getFromTraining() method.
-	}
 
 	/**
 	 * @return bool
